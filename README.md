@@ -71,6 +71,7 @@ PathMoE/
 │   ├── dataset_survival.py            # PyTorch Dataset for multi-omics loading (Survival task)
 │   ├── utils.py                      # Utility functions (Mask generation, etc.)
 └── README.md
+```
 
 ## 📊 Outputs
 Running the pipeline will automatically generate three directories:
