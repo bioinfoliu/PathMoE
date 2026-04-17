@@ -62,12 +62,15 @@ python run_pathmoe_subtype.py \
 ## 📁 Repository Structure
 ```text
 PathMoE/
-├── model_moe_pm50.py         # Core TopKPathMoE architecture (Gating & Experts)
-├── run_pathmoe_subtype.py    # Main training/evaluation script (Subtyping)
-├── dataset_subtype.py        # PyTorch Dataset for multi-omics loading
-├── utils.py                  # Utility functions (Mask generation, etc.)
+├── src/
+│   ├── model_moe_pm50.py             # Core TopKPathMoE architecture (Subtyping task)
+│   ├── model_moe_.py                 # Core TopKPathMoE architecture (Survival task)
+│   ├── run_pathmoe_subtype.py        # Main training/evaluation script (Subtyping task)
+│   ├── run_pathmoe_survival.py       # Main training/evaluation script (Survival task)
+│   ├── dataset_subtype.py            # PyTorch Dataset for multi-omics loading (Subtyping task)
+│   ├── dataset_survival.py            # PyTorch Dataset for multi-omics loading (Survival task)
+│   ├── utils.py                      # Utility functions (Mask generation, etc.)
 └── README.md
-```
 
 ## 📊 Outputs
 Running the pipeline will automatically generate three directories:
