@@ -6,6 +6,7 @@ After downloading and running our preprocessing scripts, your `data/` folder sho
 ```text
 data/
 ├── raw_data/
+│   ├── 0_download_and_process_omics.py
 │   └── README.md
 ├── h.all.v2023.1.Hs.symbols.gmt
 ├── BRCA/
@@ -14,3 +15,5 @@ data/
 └── LUAD/
     ├── filtered_subtype_data/
     └── ...
+
+
