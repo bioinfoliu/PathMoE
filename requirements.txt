@@ -1,0 +1,13 @@
+# PyTorch (Note: It is highly recommended to install PyTorch according to your cluster's CUDA version)
+torch>=2.0.0
+
+# Data Manipulation & Scientific Computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine Learning & Metrics
+scikit-learn>=1.0.0
+
+# Hyperparameter Optimization
+optuna>=3.0.0
