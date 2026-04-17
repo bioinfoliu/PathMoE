@@ -77,3 +77,11 @@ Running the pipeline will automatically generate three directories:
 * `predictions_subtype/`: Contains detailed per-sample predictions.
 * `gating_subtype/`: Contains the sparse routing weights for biological interpretation.
 * `checkpoints_subtype/`: Stores model weights for each fold.
+
+
+## ✉️ Contact
+If you have any questions, suggestions, or potential collaborations, please feel free to reach out:
+* **Email:** [lizzie_liu@snu.ac.kr](mailto:lizzie_liu@snu.ac.kr)
+* **Author:** Zhe Liu, Seoul National University
+
+
