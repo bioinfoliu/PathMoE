@@ -1,0 +1,312 @@
+{
+  "cancer": "PRAD",
+  "seeds": 20,
+  "mean_test_auc": 0.5842653061224489,
+  "std_test_auc": 0.052230941216149476,
+  "ci_95_lower": 0.5591854366953809,
+  "ci_95_upper": 0.6093451755495168,
+  "seed_test_aucs": [
+    0.5146938775510205,
+    0.6318367346938776,
+    0.6036734693877551,
+    0.6146938775510203,
+    0.5551020408163266,
+    0.6073469387755102,
+    0.6195918367346939,
+    0.6077551020408163,
+    0.5575510204081633,
+    0.4987755102040816,
+    0.6563265306122449,
+    0.5330612244897959,
+    0.6653061224489796,
+    0.45673469387755106,
+    0.6163265306122448,
+    0.5706122448979591,
+    0.610204081632653,
+    0.5975510204081632,
+    0.5506122448979591,
+    0.6175510204081632
+  ],
+  "best_params_history": [
+    {
+      "seed": 0,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 73,
+        "expert_hidden_dim": 27,
+        "expert_out_dim": 30,
+        "expert_dropout": 0.4411870057920923,
+        "cls_hidden_dim": 27,
+        "lr": 0.0009968199273591258,
+        "weight_decay": 0.00013676907347198202
+      },
+      "val_auc": 0.656301775147929
+    },
+    {
+      "seed": 1,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 61,
+        "expert_hidden_dim": 39,
+        "expert_out_dim": 38,
+        "expert_dropout": 0.3661653514028515,
+        "cls_hidden_dim": 21,
+        "lr": 0.0005193622724549655,
+        "weight_decay": 0.00023610279528516433
+      },
+      "val_auc": 0.686673241288626
+    },
+    {
+      "seed": 2,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 51,
+        "expert_hidden_dim": 58,
+        "expert_out_dim": 61,
+        "expert_dropout": 0.43418021692131603,
+        "cls_hidden_dim": 31,
+        "lr": 0.00035630046028942055,
+        "weight_decay": 0.0005225116012175934
+      },
+      "val_auc": 0.6795463510848126
+    },
+    {
+      "seed": 3,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 64,
+        "expert_hidden_dim": 63,
+        "expert_out_dim": 55,
+        "expert_dropout": 0.5453521690961023,
+        "cls_hidden_dim": 29,
+        "lr": 0.0001837829962249535,
+        "weight_decay": 0.0023306460969645974
+      },
+      "val_auc": 0.6825805391190006
+    },
+    {
+      "seed": 4,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 125,
+        "expert_hidden_dim": 29,
+        "expert_out_dim": 16,
+        "expert_dropout": 0.3872278430625292,
+        "cls_hidden_dim": 16,
+        "lr": 0.0002077331768463979,
+        "weight_decay": 0.0005300865799707893
+      },
+      "val_auc": 0.6552531229454307
+    },
+    {
+      "seed": 5,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 41,
+        "expert_hidden_dim": 42,
+        "expert_out_dim": 28,
+        "expert_dropout": 0.5208581372925413,
+        "cls_hidden_dim": 30,
+        "lr": 0.0006901569824426364,
+        "weight_decay": 0.004018172099411956
+      },
+      "val_auc": 0.7095101906640369
+    },
+    {
+      "seed": 6,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 70,
+        "expert_hidden_dim": 52,
+        "expert_out_dim": 36,
+        "expert_dropout": 0.4326485354879097,
+        "cls_hidden_dim": 26,
+        "lr": 0.000561366314971326,
+        "weight_decay": 0.0009175240270337001
+      },
+      "val_auc": 0.708257725180802
+    },
+    {
+      "seed": 7,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 94,
+        "expert_hidden_dim": 16,
+        "expert_out_dim": 48,
+        "expert_dropout": 0.4694190247814052,
+        "cls_hidden_dim": 24,
+        "lr": 0.00033231259888705694,
+        "weight_decay": 0.005178721082062928
+      },
+      "val_auc": 0.6826462853385931
+    },
+    {
+      "seed": 8,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 34,
+        "expert_hidden_dim": 59,
+        "expert_out_dim": 45,
+        "expert_dropout": 0.47761748688348504,
+        "cls_hidden_dim": 16,
+        "lr": 0.000958439859404838,
+        "weight_decay": 0.0023176886529356643
+      },
+      "val_auc": 0.7059171597633136
+    },
+    {
+      "seed": 9,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 82,
+        "expert_hidden_dim": 41,
+        "expert_out_dim": 40,
+        "expert_dropout": 0.37107628804852266,
+        "cls_hidden_dim": 24,
+        "lr": 0.0009927508726335368,
+        "weight_decay": 0.00016687188976284578
+      },
+      "val_auc": 0.6911193293885601
+    },
+    {
+      "seed": 10,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 98,
+        "expert_hidden_dim": 56,
+        "expert_out_dim": 45,
+        "expert_dropout": 0.5161169417939947,
+        "cls_hidden_dim": 20,
+        "lr": 0.0005930510691523957,
+        "weight_decay": 0.001376006028792259
+      },
+      "val_auc": 0.6637409598948061
+    },
+    {
+      "seed": 11,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 123,
+        "expert_hidden_dim": 34,
+        "expert_out_dim": 47,
+        "expert_dropout": 0.30808061889563754,
+        "cls_hidden_dim": 32,
+        "lr": 0.0008301722749542295,
+        "weight_decay": 0.001135571344436172
+      },
+      "val_auc": 0.6841190006574622
+    },
+    {
+      "seed": 12,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 58,
+        "expert_hidden_dim": 34,
+        "expert_out_dim": 16,
+        "expert_dropout": 0.3682576458494259,
+        "cls_hidden_dim": 18,
+        "lr": 0.00013538362638666884,
+        "weight_decay": 0.0018155501435298147
+      },
+      "val_auc": 0.6655555555555556
+    },
+    {
+      "seed": 13,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 87,
+        "expert_hidden_dim": 57,
+        "expert_out_dim": 57,
+        "expert_dropout": 0.3243275287652993,
+        "cls_hidden_dim": 18,
+        "lr": 0.0007519686716009568,
+        "weight_decay": 0.0006431896802728877
+      },
+      "val_auc": 0.7080719921104537
+    },
+    {
+      "seed": 14,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 128,
+        "expert_hidden_dim": 32,
+        "expert_out_dim": 17,
+        "expert_dropout": 0.45800880968581503,
+        "cls_hidden_dim": 28,
+        "lr": 0.0004451044617112074,
+        "weight_decay": 0.002151953653245249
+      },
+      "val_auc": 0.6786160420775805
+    },
+    {
+      "seed": 15,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 90,
+        "expert_hidden_dim": 32,
+        "expert_out_dim": 46,
+        "expert_dropout": 0.4812505190601793,
+        "cls_hidden_dim": 23,
+        "lr": 0.0007202097876122511,
+        "weight_decay": 0.0004954740451707029
+      },
+      "val_auc": 0.6822222222222222
+    },
+    {
+      "seed": 16,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 127,
+        "expert_hidden_dim": 58,
+        "expert_out_dim": 54,
+        "expert_dropout": 0.5198046612593763,
+        "cls_hidden_dim": 23,
+        "lr": 0.0009821614070910502,
+        "weight_decay": 0.004002633201846232
+      },
+      "val_auc": 0.7021794871794872
+    },
+    {
+      "seed": 17,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 49,
+        "expert_hidden_dim": 21,
+        "expert_out_dim": 16,
+        "expert_dropout": 0.39343188282979114,
+        "cls_hidden_dim": 29,
+        "lr": 0.0008218891398109617,
+        "weight_decay": 0.0012785973240821156
+      },
+      "val_auc": 0.6998224852071006
+    },
+    {
+      "seed": 18,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 128,
+        "expert_hidden_dim": 17,
+        "expert_out_dim": 55,
+        "expert_dropout": 0.3100353631891152,
+        "cls_hidden_dim": 22,
+        "lr": 0.00026868545818249943,
+        "weight_decay": 0.003986701622081156
+      },
+      "val_auc": 0.6785272846811309
+    },
+    {
+      "seed": 19,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 86,
+        "expert_hidden_dim": 23,
+        "expert_out_dim": 20,
+        "expert_dropout": 0.3442379044429949,
+        "cls_hidden_dim": 28,
+        "lr": 0.00047096990039052636,
+        "weight_decay": 0.0038689398297963836
+      },
+      "val_auc": 0.6761439842209074
+    }
+  ]
+}

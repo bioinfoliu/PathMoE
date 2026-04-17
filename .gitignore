@@ -1,0 +1,12 @@
+# 忽略数据文件夹
+data/
+
+# 忽略实验过程中产生的中间结果和模型权重
+predictions_subtype/
+gating_subtype/
+checkpoints_subtype/
+*.csv
+*.pth
+
+# 忽略日志文件
+*.log

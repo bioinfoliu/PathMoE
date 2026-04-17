@@ -1,0 +1,313 @@
+{
+  "cancer": "KIRC",
+  "comb": "cnv",
+  "seeds": 20,
+  "mean_test_auc": 0.48513104838709664,
+  "std_test_auc": 0.05652795367367865,
+  "ci_95_lower": 0.4579878711035737,
+  "ci_95_upper": 0.5122742256706195,
+  "seed_test_aucs": [
+    0.5564516129032258,
+    0.4758064516129032,
+    0.38810483870967744,
+    0.4546370967741935,
+    0.46875,
+    0.4415322580645161,
+    0.5131048387096774,
+    0.6058467741935485,
+    0.4284274193548387,
+    0.43649193548387094,
+    0.40120967741935487,
+    0.47076612903225806,
+    0.47379032258064513,
+    0.4445564516129032,
+    0.53125,
+    0.502016129032258,
+    0.49899193548387094,
+    0.594758064516129,
+    0.49092741935483875,
+    0.5252016129032258
+  ],
+  "best_params_history": [
+    {
+      "seed": 0,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 92,
+        "expert_hidden_dim": 60,
+        "expert_out_dim": 45,
+        "expert_dropout": 0.5113511741304321,
+        "cls_hidden_dim": 32,
+        "lr": 0.00022215389927494737,
+        "weight_decay": 0.0010666727769305358
+      },
+      "val_auc": 0.7184
+    },
+    {
+      "seed": 1,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 75,
+        "expert_hidden_dim": 16,
+        "expert_out_dim": 34,
+        "expert_dropout": 0.5009315276353098,
+        "cls_hidden_dim": 27,
+        "lr": 0.00019657475227485063,
+        "weight_decay": 0.0014513442502472442
+      },
+      "val_auc": 0.7599999999999999
+    },
+    {
+      "seed": 2,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 54,
+        "expert_hidden_dim": 45,
+        "expert_out_dim": 57,
+        "expert_dropout": 0.5527245192105938,
+        "cls_hidden_dim": 19,
+        "lr": 0.0001174114391787526,
+        "weight_decay": 0.00026882549068729325
+      },
+      "val_auc": 0.68
+    },
+    {
+      "seed": 3,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 87,
+        "expert_hidden_dim": 38,
+        "expert_out_dim": 34,
+        "expert_dropout": 0.3534706976562301,
+        "cls_hidden_dim": 31,
+        "lr": 0.00095233599318942,
+        "weight_decay": 0.00010237894434582207
+      },
+      "val_auc": 0.772
+    },
+    {
+      "seed": 4,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 106,
+        "expert_hidden_dim": 23,
+        "expert_out_dim": 16,
+        "expert_dropout": 0.5352509828741192,
+        "cls_hidden_dim": 32,
+        "lr": 0.0003442197220249629,
+        "weight_decay": 0.0001111176059752609
+      },
+      "val_auc": 0.6208
+    },
+    {
+      "seed": 5,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 50,
+        "expert_hidden_dim": 43,
+        "expert_out_dim": 59,
+        "expert_dropout": 0.3304741704576038,
+        "cls_hidden_dim": 20,
+        "lr": 0.0007488394630259032,
+        "weight_decay": 0.0007165958551437833
+      },
+      "val_auc": 0.8160000000000001
+    },
+    {
+      "seed": 6,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 76,
+        "expert_hidden_dim": 29,
+        "expert_out_dim": 37,
+        "expert_dropout": 0.44747152867501294,
+        "cls_hidden_dim": 30,
+        "lr": 0.0001237869062790168,
+        "weight_decay": 0.00017951578886050786
+      },
+      "val_auc": 0.6831999999999999
+    },
+    {
+      "seed": 7,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 74,
+        "expert_hidden_dim": 26,
+        "expert_out_dim": 49,
+        "expert_dropout": 0.5398366420640992,
+        "cls_hidden_dim": 25,
+        "lr": 0.00027223773932168513,
+        "weight_decay": 0.0008085709338319393
+      },
+      "val_auc": 0.7168
+    },
+    {
+      "seed": 8,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 55,
+        "expert_hidden_dim": 50,
+        "expert_out_dim": 53,
+        "expert_dropout": 0.3969713192070162,
+        "cls_hidden_dim": 22,
+        "lr": 0.00010039172748464149,
+        "weight_decay": 0.0030344501134093793
+      },
+      "val_auc": 0.7152000000000001
+    },
+    {
+      "seed": 9,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 61,
+        "expert_hidden_dim": 43,
+        "expert_out_dim": 56,
+        "expert_dropout": 0.52736668619345,
+        "cls_hidden_dim": 19,
+        "lr": 0.0006890671617114126,
+        "weight_decay": 0.0014444723299361227
+      },
+      "val_auc": 0.6719999999999999
+    },
+    {
+      "seed": 10,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 108,
+        "expert_hidden_dim": 38,
+        "expert_out_dim": 16,
+        "expert_dropout": 0.5257051354698048,
+        "cls_hidden_dim": 22,
+        "lr": 0.0002379893600567629,
+        "weight_decay": 0.0017925200401397402
+      },
+      "val_auc": 0.7392000000000001
+    },
+    {
+      "seed": 11,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 58,
+        "expert_hidden_dim": 31,
+        "expert_out_dim": 41,
+        "expert_dropout": 0.32857879651445665,
+        "cls_hidden_dim": 31,
+        "lr": 0.0007105170393446487,
+        "weight_decay": 0.0009036805228378756
+      },
+      "val_auc": 0.7568
+    },
+    {
+      "seed": 12,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 98,
+        "expert_hidden_dim": 43,
+        "expert_out_dim": 16,
+        "expert_dropout": 0.5558702517353,
+        "cls_hidden_dim": 24,
+        "lr": 0.0006767972375957602,
+        "weight_decay": 0.009366313913597117
+      },
+      "val_auc": 0.6960000000000001
+    },
+    {
+      "seed": 13,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 37,
+        "expert_hidden_dim": 48,
+        "expert_out_dim": 58,
+        "expert_dropout": 0.4756704394945229,
+        "cls_hidden_dim": 26,
+        "lr": 0.00013491468388305249,
+        "weight_decay": 0.0005813425390611411
+      },
+      "val_auc": 0.7024
+    },
+    {
+      "seed": 14,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 123,
+        "expert_hidden_dim": 27,
+        "expert_out_dim": 34,
+        "expert_dropout": 0.5111688611728488,
+        "cls_hidden_dim": 26,
+        "lr": 0.0005264893066354614,
+        "weight_decay": 0.00024323554294597958
+      },
+      "val_auc": 0.6639999999999999
+    },
+    {
+      "seed": 15,
+      "params": {
+        "top_k": 1,
+        "gate_hidden_dim": 62,
+        "expert_hidden_dim": 19,
+        "expert_out_dim": 52,
+        "expert_dropout": 0.5428872422582657,
+        "cls_hidden_dim": 20,
+        "lr": 0.00010884705128355055,
+        "weight_decay": 0.0004904727201031183
+      },
+      "val_auc": 0.712
+    },
+    {
+      "seed": 16,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 52,
+        "expert_hidden_dim": 58,
+        "expert_out_dim": 21,
+        "expert_dropout": 0.4574337482695556,
+        "cls_hidden_dim": 18,
+        "lr": 0.0007827864619355326,
+        "weight_decay": 0.00257383013524111
+      },
+      "val_auc": 0.7344
+    },
+    {
+      "seed": 17,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 127,
+        "expert_hidden_dim": 32,
+        "expert_out_dim": 18,
+        "expert_dropout": 0.5653867150190892,
+        "cls_hidden_dim": 21,
+        "lr": 0.00011153880688033695,
+        "weight_decay": 0.004283845020654003
+      },
+      "val_auc": 0.6688
+    },
+    {
+      "seed": 18,
+      "params": {
+        "top_k": 3,
+        "gate_hidden_dim": 97,
+        "expert_hidden_dim": 56,
+        "expert_out_dim": 30,
+        "expert_dropout": 0.30012373068837106,
+        "cls_hidden_dim": 30,
+        "lr": 0.0004528775673302025,
+        "weight_decay": 0.00020644611336307971
+      },
+      "val_auc": 0.7568
+    },
+    {
+      "seed": 19,
+      "params": {
+        "top_k": 2,
+        "gate_hidden_dim": 90,
+        "expert_hidden_dim": 49,
+        "expert_out_dim": 23,
+        "expert_dropout": 0.39063990793227943,
+        "cls_hidden_dim": 27,
+        "lr": 0.0002427248760191615,
+        "weight_decay": 0.0004044343898237176
+      },
+      "val_auc": 0.7056
+    }
+  ]
+}

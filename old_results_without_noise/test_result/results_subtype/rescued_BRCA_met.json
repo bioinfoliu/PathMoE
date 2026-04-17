@@ -1,0 +1,8 @@
+{
+  "cancer": "BRCA",
+  "combination": "met",
+  "mean_f1": 0.7263741104939528,
+  "std_f1": 0.05809973887244909,
+  "mean_balanced_acc": 0.7495901960784315,
+  "std_balanced_acc": 0.0678889904598503
+}

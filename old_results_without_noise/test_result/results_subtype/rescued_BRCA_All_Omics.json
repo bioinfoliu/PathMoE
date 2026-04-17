@@ -1,0 +1,8 @@
+{
+  "cancer": "BRCA",
+  "combination": "All_Omics",
+  "mean_f1": 0.807684397671623,
+  "std_f1": 0.06225139528556605,
+  "mean_balanced_acc": 0.8141385026737968,
+  "std_balanced_acc": 0.056505272440944845
+}
