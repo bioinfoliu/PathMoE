@@ -80,9 +80,11 @@ Running the pipeline will automatically generate three directories:
 * `checkpoints_subtype/`: Stores model weights for each fold.
 
 
-## ✉️ Contact
-If you have any questions, suggestions, or potential collaborations, please feel free to reach out:
-* **Email:** lizzie_liu@snu.ac.kr
+## ✉️ Contact & Support
+For technical issues, bug reports, and code-related questions: Please reach out to the lead developer:
 * **Author:** Zhe Liu, Seoul National University
+* **Email:** lizzie_liu@snu.ac.kr
 
-
+For academic correspondence and general inquiries: Please contact the corresponding author, 
+* **Corresponding Author:** Prof. Taesung Park, Seoul National University
+* **Email:** tspark@stats.snu.ac.kr
